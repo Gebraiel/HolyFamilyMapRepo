@@ -19,7 +19,6 @@ body {
   width: 1920px;
   max-height: 1300px;
   position: relative;
-  overflow: hidden;
 }
 
 .map-cont .map {
@@ -104,11 +103,9 @@ span.alink:hover {
 
 .map-overflow {
   width: 100vw;
-  height: 100vh;
+  height:100vh;
   background: #a48259;
 
-  position: fixed;
-  overflow: scroll;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -138,7 +135,7 @@ span.alink:hover {
 }
 @media (min-width: 320px) {
   .map-cont {
-    transform: scale(0.55) translateY(-366px) translateX(-63%);
+    transform:scale(0.55,0.7) translateY(-255px) translateX(-63%);
   }
 }
 @media (min-width: 450px) {

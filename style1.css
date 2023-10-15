@@ -717,7 +717,7 @@ bottom: auto!important;
   section#mapcontainer #map-timline2 {
     width: 238px;
   }
-
+  
   @media (min-width: 769px) {
     section#second-screen .container {
       padding-top: 75px;
@@ -5848,10 +5848,6 @@ top: 48px;
     }
   }
   @media all and (min-width: 767px) and (max-width: 820px) and (min-height: 1023px) and (max-height: 1180px) and (orientation: portrait) {
-    section#second-screen {
-      background-image: url(https://blessedegypt.com/map/images/sec-948-1200.png) !important;
-      background-position: 25%;
-    }
     .col-md-3.rafah.animate-img {
       right: -234px;
       top: 169px;
