@@ -50,7 +50,7 @@
             height: 1350px!important;
         }
       }
-      @media (max-width: 500px) and (max-height: 860px){
+      /* @media (max-width: 500px) and (max-height: 860px){
           section#second-screen {
               height: 845px!important;
           }
@@ -60,7 +60,26 @@
               height: 1015px!important;
           }
         }
-
+        @media (max-width: 500px) and (max-height: 860px){
+          section#second-screen {
+              height: 845px!important;
+          }
+        } */
+        @media (max-height: 860px){
+          section#second-screen {
+              height: 860px!important;
+          }
+        }
+        @media(max-height:660px){
+          section#second-screen {
+              height: 660px!important;
+          }
+        }
+        @media(min-width:1000px) and (max-height:1300px){
+          section#second-screen{
+            height: 1300px !important;
+          }
+        }
       #second-screen .time-line {
         position: absolute;
         top: 120px;
@@ -616,7 +635,7 @@
           </div>
           <!--    Start Map -->
           <div class="map-overflow" style="direction: ltr">
-            <div class="map-cont">
+            <div class="map-cont" >
               <img
                 class="map"
                 src="map1.jpg"

@@ -133,9 +133,15 @@ span.alink:hover {
   background-size: cover;
   filter: blur(50px);
 }
+@media(max-width:300px){
+  .map-cont{
+    width:300px;
+    transform: scale(0.4,0.45) translateY(10px) translateX(-220%);
+  }
+}
 @media (min-width: 320px) {
   .map-cont {
-    transform:scale(0.55,0.7) translateY(-255px) translateX(-63%);
+    transform:scale(0.5,0.62) translateY(-245px) translateX(-72%);
   }
 }
 @media (min-width: 450px) {
