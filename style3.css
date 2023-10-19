@@ -30,7 +30,7 @@ body {
 .map-cont .layers {
   position: absolute;
   top: 194px;
-  left: 427px;
+  left: 472px;
   width: 727px;
   height: 868px;
   z-index: 33;
@@ -41,19 +41,19 @@ body {
 }
 
 .arrows-layer {
-  left: 64px;
-  top: 50px;
+  left: 0px;
+  top: 0px;
   -webkit-animation: vibrate-1 2s linear infinite both;
   animation: vibrate-1 2s linear infinite both;
 }
 
 .points-layer {
-  left: 45px;
+  left: 0px;
   top: 0px;
 }
 
 .names-layer {
-  top: 17px;
+  top: 0px;
   left: 0;
 }
 
