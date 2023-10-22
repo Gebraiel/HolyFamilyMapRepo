@@ -25,6 +25,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  opacity: 0.7;
 }
 
 .map-cont .layers {
@@ -104,10 +105,19 @@ span.alink:hover {
 .map-overflow {
   width: 100vw;
   height:100vh;
-  background: #a48259;
+  background: #826b44;
 
 }
-
+@media(min-width:1000px) and (max-height:1300px){
+    .map-overflow {
+        height:1445px;
+    }
+}
+@media(min-width:1025px) and (max-height:1300px){
+  .map-overflow {
+      height:1350px;
+  }
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .map-overflow::-webkit-scrollbar {
   display: none;
@@ -123,7 +133,7 @@ span.alink:hover {
 
 .map-overflow:before {
   content: "";
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -136,17 +146,31 @@ span.alink:hover {
 @media(max-width:300px){
   .map-cont{
     width:300px;
-    transform: scale(0.4,0.45) translateY(10px) translateX(-220%);
+    transform:scale(0.45) translateY(-105px) translateX(-220%);
   }
 }
-@media (min-width: 320px) {
+@media (min-width: 360px)  {
   .map-cont {
-    transform:scale(0.5,0.65) translateY(-230px) translateX(-71%);
+    transform:scale(0.638) translateY(-307px) translateX(-53%);
   }
 }
+
+@media (min-width: 360px) and (max-height:896px) {
+  .map-cont {
+    transform:scale(0.623) translateY(-327px) translateX(-55%);
+  }
+}
+
+@media (min-width: 360px) and (max-height:796px) {
+  .map-cont {
+    transform:scale(0.55) translateY(-450px) translateX(-65%);
+  }
+}
+
+
 @media (min-width: 450px) {
   .map-cont {
-    transform: scale(0.7) translateY(-155px) translateX(-44%);
+    transform: scale(0.7) translateY(-315px) translateX(-44%);
   }
 }
 
