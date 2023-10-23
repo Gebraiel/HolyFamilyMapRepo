@@ -68,7 +68,6 @@ body {
   display: block;
   cursor: pointer;
   border: 1px solid transparent;
-
   transition: all 0.45s ease-in-out;
 }
 

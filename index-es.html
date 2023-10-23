@@ -1,7 +1,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>العائلة المقدسة في مصر</title>
+    <title>La Sagrada Familia en Egipto</title>
+    <link rel="stylesheet" href="edit.css">
     <meta content="width=device-width" name="viewport" />
     <meta
       name="viewport"
@@ -26,11 +27,19 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!--load all styles -->
+        <!--load all styles -->
+    <!-- Start WOWSlider.com HEAD section -->
+
+
+    <!-- End WOWSlider.com HEAD section -->
+
     <link
       rel="stylesheet"
       href="https://oldmap.blessedegypt.com/css/txx5.css"
     />
     
+    <!--added by gerges -->
     <style>
       #second-screen {
         padding-top: 0 !important;
@@ -48,7 +57,21 @@
         }
       }
 
-
+      /* @media (max-width: 500px) and (max-height: 860px){
+          section#second-screen {
+              height: 845px!important;
+          }
+      }
+      @media (max-width: 540px) and (max-height: 720px){
+          section#second-screen {
+              height: 1015px!important;
+          }
+        }
+        @media (max-width: 500px) and (max-height: 860px){
+          section#second-screen {
+              height: 845px!important;
+          }
+        } */
         @media (max-height: 860px){
           section#second-screen {
               height:100vh!important;
@@ -68,8 +91,23 @@
       }
     </style>
     <style>
+      *{
+        font-family: 'Poppins', sans-serif !important;
+      }
       .city a {
         color: #fff !important;
+      }
+      tr{
+        flex-direction: row;
+      }
+      td.city{
+        direction: rtl;
+      }
+      .layers h4{
+        direction: rtl;
+      }
+      div#accordion, .time-line .time, h4.return{
+        text-align: left!important;
       }
     </style>
   </head>
@@ -77,9 +115,9 @@
     <section id="second-screen" style="height: 819px; padding-top: 50px">
       <div>
         <div>
-          <div class="time-line">
-            <div class="time">
-              <h3>نقاط المسار</h3>
+          <div class="time-line " style="text-align: left;">
+            <div class="time" >
+              <h3>Puntos de seguimiento</h3>
               <table>
                 <tbody>
                   <tr>
@@ -87,7 +125,7 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('رفح',3)"
-                        >رفح</a
+                        >Rafah</a
                       >
                     </td>
                   </tr>
@@ -98,7 +136,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('الشيخ زويد',10)"
-                        >الشيخ زويد</a
+                        >Sheikh Zuwaid</a
                       >
                     </td>
                   </tr>
@@ -109,7 +147,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('العريش',1)"
-                        >العريش</a
+                        >Arish</a
                       >
                     </td>
                   </tr>
@@ -120,7 +158,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('الفلوسيات',11)"
-                        >الفلوسيات</a
+                        >Flossies</a
                       >
                     </td>
                   </tr>
@@ -131,7 +169,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('تل القلس (رأس كاسيون)',27)"
-                        >تل القلس (رأس كاسيون)</a
+                        >Hill of regurgitation (Ras Kasion)</a
                       >
                     </td>
                   </tr>
@@ -142,7 +180,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('المحمدية',28)"
-                        >المحمدية</a
+                        >Muhammadiyah</a
                       >
                     </td>
                   </tr>
@@ -153,7 +191,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('الفرما',29)"
-                        >الفرما</a
+                        >Alfarma</a
                       >
                     </td>
                   </tr>
@@ -164,7 +202,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('تل بسطا',30)"
-                        >تل بسطا</a
+                        >Tell Basta
+                        </a
                       >
                     </td>
                   </tr>
@@ -175,7 +214,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('المحمة',31)"
-                        >المحمة</a
+                        >Mahama</a
                       >
                     </td>
                   </tr>
@@ -184,7 +223,8 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('بلبيس',5)"
-                        >بلبيس</a
+                        >Belbeis
+                        </a
                       >
                     </td>
                   </tr>
@@ -195,7 +235,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('منية سمنود',33)"
-                        >منية سمنود</a
+                        >Minya Samannoud</a
                       >
                     </td>
                   </tr>
@@ -204,7 +244,8 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('سمنود',9)"
-                        >سمنود</a
+                        >Samanoud
+                        </a
                       >
                     </td>
                   </tr>
@@ -215,7 +256,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دقادوس',34)"
-                        >دقادوس</a
+                        >Daqados
+                        </a
                       >
                     </td>
                   </tr>
@@ -224,7 +266,8 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('سخا',8)"
-                        >سخا</a
+                        >Sakha 
+                        </a
                       >
                     </td>
                   </tr>
@@ -235,7 +278,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('وادي النطرون',35)"
-                        >وادي النطرون</a
+                        >Wadi Al Natron
+                        </a
                       >
                     </td>
                   </tr>
@@ -246,7 +290,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير أبو مقار',36)"
-                        >دير أبو مقار</a
+                        >Monastery of Abu Makar</a
                       >
                     </td>
                   </tr>
@@ -257,7 +301,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير السيدة العذراء السريان',37)"
-                        >دير السيدة العذراء السريان</a
+                        >Monastery of the Virgin Mary Syriac</a
                       >
                     </td>
                   </tr>
@@ -268,7 +312,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير الأنبا بيشوي',41)"
-                        >دير الأنبا بيشوي</a
+                        >Monastery of Anba Bishoy</a
                       >
                     </td>
                   </tr>
@@ -279,7 +323,7 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير السيدة العذراء برموس',42)"
-                        >دير السيدة العذراء برموس</a
+                        >Monastery of the Virgin Mary in Parmos</a
                       >
                     </td>
                   </tr>
@@ -290,7 +334,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('مسطرد',55)"
-                        >مسطرد</a
+                        >Mostord 
+                        </a
                       >
                     </td>
                   </tr>
@@ -301,7 +346,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('المطرية',43)"
-                        >المطرية</a
+                        >Al matareya 
+                        </a
                       >
                     </td>
                   </tr>
@@ -312,7 +358,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('حارة زويلة',56)"
-                        >حارة زويلة</a
+                        >Haret Zuwayla
+                        </a
                       >
                     </td>
                   </tr>
@@ -323,7 +370,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('كنيسة أبي سرجة',44)"
-                        >كنيسة أبي سرجة</a
+                        >Sergius Church 
+                        </a
                       >
                     </td>
                   </tr>
@@ -334,7 +382,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('كنيسة العذراء بالمعادي',45)"
-                        >كنيسة العذراء بالمعادي</a
+                        >Maadi 
+                        </a
                       >
                     </td>
                   </tr>
@@ -343,7 +392,8 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('منف',46)"
-                        >منف</a
+                        >Manf
+                        </a
                       >
                     </td>
                   </tr>
@@ -354,7 +404,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير الجرنوس',48)"
-                        >دير الجرنوس</a
+                        >Deir Al Garnus 
+                        </a
                       >
                     </td>
                   </tr>
@@ -365,7 +416,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('البهنسا',47)"
-                        >البهنسا</a
+                        >Bahnasa
+                        </a
                       >
                     </td>
                   </tr>
@@ -376,7 +428,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير جبل الطير',49)"
-                        >دير جبل الطير</a
+                        >Gabal al tayr 
+                        </a
                       >
                     </td>
                   </tr>
@@ -387,7 +440,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('الأشمونين',50)"
-                        >الأشمونين</a
+                        >Al ashmunayn 
+                        </a
                       >
                     </td>
                   </tr>
@@ -398,7 +452,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('ديروط الشريف',51)"
-                        >ديروط الشريف</a
+                        >Dayrut al-sharif 
+                        </a
                       >
                     </td>
                   </tr>
@@ -409,7 +464,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('مير القوصية',52)"
-                        >مير القوصية</a
+                        >Meir al quseya 
+                        </a
                       >
                     </td>
                   </tr>
@@ -420,7 +476,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير المحرق',7)"
-                        >دير المحرق</a
+                        >Muharraq Monastery 
+                        </a
                       >
                     </td>
                   </tr>
@@ -431,7 +488,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير درنكة',12)"
-                        >دير درنكة</a
+                        >Drunka
+                        </a
                       >
                     </td>
                   </tr>
@@ -440,6 +498,8 @@
             </div>
             <div class="separator"></div>
             <div class="layers">
+              <!-- <h3>LAYERS</h3>-->
+
               <div
                 class="panel-group"
                 id="accordion"
@@ -457,10 +517,11 @@
                         aria-expanded="true"
                         aria-controls="collapseOne1"
                       >
-                        الشواهد الأثرية
+                        Archaeological evidence
                       </a>
                     </h4>
-                  </div>    
+                  </div>
+
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne2">
@@ -473,8 +534,8 @@
                         aria-expanded="true"
                         aria-controls="collapseOne2"
                       >
-                        الأعمال الفنية
-                      </a>
+                      Artistical works                      
+                    </a>
                     </h4>
                   </div>
                   
@@ -490,11 +551,11 @@
                         aria-expanded="true"
                         aria-controls="collapseOne3"
                       >
-                        الخرائط والمخطوطات
-                      </a>
+                      Maps and manuscripts              
+                    </a>
                     </h4>
                   </div>
-                 
+                  
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne4">
@@ -502,10 +563,11 @@
                       <a
                         href="https://oldmap.blessedegypt.com/ar/category/holy-family-miracles"
                       >
-                        معجزات العائلة المقدسة
+                        Miracles of the Holy Family              
                       </a>
                     </h4>
                   </div>
+                  
                 </div>
               </div>
             </div>
