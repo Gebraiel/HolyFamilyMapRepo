@@ -2,87 +2,55 @@
   <head>
     <meta charset="utf-8" />
     <title>La Sacra Famiglia in Egitto</title>
-    <link rel="stylesheet" href="edit.css">
+    <link rel="stylesheet" href="edit.css" />
     <meta content="width=device-width" name="viewport" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="upgrade-insecure-requests"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="icon"
       href="https://oldmap.blessedegypt.com/design2/images/iconpopimg.png"
       type="image/x-icon"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!--load all styles -->
-        <!--load all styles -->
-    <!-- Start WOWSlider.com HEAD section -->
-
-
-    <!-- End WOWSlider.com HEAD section -->
 
     <link
       rel="stylesheet"
       href="https://oldmap.blessedegypt.com/css/txx5.css"
     />
-    
-    <!--added by gerges -->
+
     <style>
       #second-screen {
         padding-top: 0 !important;
         background: none !important;
       }
-      @media(max-height:720px){
-        section#second-screen{
-          height:720px;
-        }
-      }
-      @media (min-width: 769px){
+      @media (max-height: 720px) {
         section#second-screen {
-            height:100vh!important;
-           
+          height: 720px;
         }
       }
-
-      /* @media (max-width: 500px) and (max-height: 860px){
-          section#second-screen {
-              height: 845px!important;
-          }
+      @media (min-width: 769px) {
+        section#second-screen {
+          height: 100vh !important;
+        }
       }
-      @media (max-width: 540px) and (max-height: 720px){
-          section#second-screen {
-              height: 1015px!important;
-          }
+      @media (max-height: 860px) {
+        section#second-screen {
+          height: 100vh !important;
         }
-        @media (max-width: 500px) and (max-height: 860px){
-          section#second-screen {
-              height: 845px!important;
-          }
-        } */
-        @media (max-height: 860px){
-          section#second-screen {
-              height:100vh!important;
-             
-          }
+      }
+      @media (min-width: 1030px) and (max-height: 1300px) {
+        section#second-screen {
+          height: 1340px !important;
         }
-        @media(min-width:1030px) and (max-height:1300px){
-          section#second-screen{
-            height:1340px !important;
-          
-          }
       }
       #second-screen .time-line {
         position: absolute;
@@ -91,23 +59,25 @@
       }
     </style>
     <style>
-      *{
-        font-family: 'Poppins', sans-serif !important;
+      * {
+        font-family: "Poppins", sans-serif !important;
       }
       .city a {
         color: #fff !important;
       }
-      tr{
+      tr {
         flex-direction: row;
       }
-      td.city{
+      td.city {
         direction: rtl;
       }
-      .layers h4{
+      .layers h4 {
         direction: rtl;
       }
-      div#accordion, .time-line .time, h4.return{
-        text-align: left!important;
+      div#accordion,
+      .time-line .time,
+      h4.return {
+        text-align: left !important;
       }
     </style>
   </head>
@@ -115,20 +85,9 @@
     <section id="second-screen" style="height: 819px; padding-top: 50px">
       <div>
         <div>
-          <ul class="languages">
-            <li><a href="index.html">ar</a></li>
-            <li><a href="index-en.html">en</a></li>
-            <li><a href="index-es.html">es</a></li>
-            <li><a href="index-fr.html">fr</a></li>
-            <li><a href="index-it.html">it</a></li>
-            <li><a href="index-pt.html">pt</a></li>
-            <li><a href="index-ru.html">ru</a></li>
-            <li><a href="index-de.html">de</a></li>
-          </ul>
-          <div class="time-line " style="text-align: left;">
-            <div class="time" >
-              <h3>Traccia punti
-              </h3>
+          <div class="time-line" style="text-align: left">
+            <div class="time">
+              <h3>Traccia punti</h3>
               <table>
                 <tbody>
                   <tr>
@@ -214,8 +173,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('تل بسطا',30)"
                         >Tell Basta
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -235,8 +193,7 @@
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('بلبيس',5)"
                         >Belbeis
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -256,8 +213,7 @@
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('سمنود',9)"
                         >Samanoud
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -268,8 +224,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('دقادوس',34)"
                         >Daqados
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -277,9 +232,8 @@
                     <td>4 AC</td>
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('سخا',8)"
-                        >Sakha 
-                        </a
-                      >
+                        >Sakha
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -290,8 +244,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('وادي النطرون',35)"
                         >Wadi Al Natron
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -345,9 +298,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('مسطرد',55)"
-                        >Mostord 
-                        </a
-                      >
+                        >Mostord
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -357,9 +309,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('المطرية',43)"
-                        >Al matareya 
-                        </a
-                      >
+                        >Al matareya
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -370,8 +321,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('حارة زويلة',56)"
                         >Haret Zuwayla
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -381,9 +331,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('كنيسة أبي سرجة',44)"
-                        >Sergius Church 
-                        </a
-                      >
+                        >Sergius Church
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -393,9 +342,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('كنيسة العذراء بالمعادي',45)"
-                        >Maadi 
-                        </a
-                      >
+                        >Maadi
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -404,8 +352,7 @@
                     <td class="city">
                       <a href="javascript:void(0);" onclick="showMap('منف',46)"
                         >Manf
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -415,9 +362,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير الجرنوس',48)"
-                        >Deir Al Garnus 
-                        </a
-                      >
+                        >Deir Al Garnus
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -428,8 +374,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('البهنسا',47)"
                         >Bahnasa
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -439,9 +384,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير جبل الطير',49)"
-                        >Gabal al tayr 
-                        </a
-                      >
+                        >Gabal al tayr
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -451,9 +395,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('الأشمونين',50)"
-                        >Al ashmunayn 
-                        </a
-                      >
+                        >Al ashmunayn
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -463,9 +406,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('ديروط الشريف',51)"
-                        >Dayrut al-sharif 
-                        </a
-                      >
+                        >Dayrut al-sharif
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -475,9 +417,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('مير القوصية',52)"
-                        >Meir al quseya 
-                        </a
-                      >
+                        >Meir al quseya
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -487,9 +428,8 @@
                       <a
                         href="javascript:void(0);"
                         onclick="showMap('دير المحرق',7)"
-                        >Muharraq Monastery 
-                        </a
-                      >
+                        >Muharraq Monastery
+                      </a>
                     </td>
                   </tr>
                   <tr>
@@ -500,8 +440,7 @@
                         href="javascript:void(0);"
                         onclick="showMap('دير درنكة',12)"
                         >Drunka
-                        </a
-                      >
+                      </a>
                     </td>
                   </tr>
                 </tbody>
@@ -532,7 +471,6 @@
                       </a>
                     </h4>
                   </div>
-
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne2">
@@ -545,11 +483,10 @@
                         aria-expanded="true"
                         aria-controls="collapseOne2"
                       >
-                      Artistical works                      
-                    </a>
+                        Artistical works
+                      </a>
                     </h4>
                   </div>
-                  
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne3">
@@ -562,11 +499,10 @@
                         aria-expanded="true"
                         aria-controls="collapseOne3"
                       >
-                      Maps and manuscripts              
-                    </a>
+                        Maps and manuscripts
+                      </a>
                     </h4>
                   </div>
-                  
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingOne4">
@@ -574,94 +510,84 @@
                       <a
                         href="https://oldmap.blessedegypt.com/ar/category/holy-family-miracles"
                       >
-                        Miracles of the Holy Family              
+                        Miracles of the Holy Family
                       </a>
                     </h4>
                   </div>
-                  
                 </div>
               </div>
             </div>
           </div>
           <!--    Start Map -->
           <div class="map-overflow" style="direction: ltr">
-            <div class="map-cont" >
-              <img
-                class="map"
-                src="map2.jpg"
-                alt="map"
-              />
+            <div class="map-cont">
+              <img class="map" src="Images/map.jpg" alt="map" />
 
               <div class="layers">
-                <img
-                  class="arrows-layer"
-                  src="arrows2.png"
-                />
+                <img class="arrows-layer" src="Images/arrows.png" />
 
-                <img
-                  class="points-layer"
-                  src="points2.png"
-                />
+                <img class="points-layer" src="Images/points.png" />
 
                 <img
                   class="names-layer"
-                  src="names-en.png"
-                  style="top:-25px;left:-45px;"
+                  src="Images/names-en.png"
+                  style="top: -25px; left: -45px"
                 />
 
                 <a
                   onclick="showMap('الفرما',29)"
                   class="alink"
-                  style="top: 25px;
-                  right: 60px;"
+                  style="top: 25px; right: 60px"
                   title="الفرما"
                 ></a>
                 <a
-                onclick="showMap('الفرما',29)"
-                style=" 
-                position: absolute;
-                display: block;
-                cursor: pointer;
-                width: 60px;
-                height: 25px;
-                top: 115px;
-                right: 90px;"
-              ></a>
+                  onclick="showMap('الفرما',29)"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 60px;
+                    height: 25px;
+                    top: 115px;
+                    right: 90px;
+                  "
+                ></a>
 
                 <a
                   onclick="showMap('تل بسطا',30)"
                   class="alink"
-                  style="top: 120px;right: 275px;"
+                  style="top: 120px; right: 275px"
                   title="تل بسطا"
                 ></a>
-                <a 
-                onclick="showMap('تل بسطا',30)" 
-                style="
-                 position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 85px;
-                  height: 25px;
-                  top: 195px;
-                  right: 225px;"></a>
-    
+                <a
+                  onclick="showMap('تل بسطا',30)"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 85px;
+                    height: 25px;
+                    top: 195px;
+                    right: 225px;
+                  "
+                ></a>
+
                 <a
                   onclick="showMap('بلبيس',5)"
                   class="alink"
-                  style="top: 205px;
-                  right: 310px;"
+                  style="top: 205px; right: 310px"
                   title="بلبيس"
                 ></a>
                 <a
                   onclick="showMap('بلبيس',5)"
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 85px;
-                  height: 25px;
-                  top: 245px;
-                  right: 260px;
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 85px;
+                    height: 25px;
+                    top: 245px;
+                    right: 260px;
                   "
                 ></a>
                 <div class="viewIconImg"></div>
@@ -669,50 +595,45 @@
                 <a
                   onclick="showMap('سمنود',9)"
                   class="alink"
-                  style="
-                  top: 60px;
-                  right: 387px;"
+                  style="top: 60px; right: 387px"
                   title="سمنود"
                 ></a>
                 <a
                   onclick="showMap('سمنود',9)"
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 85px;
-                  height: 25px;
-                  top: 145px;
-                  left: 195px;
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 85px;
+                    height: 25px;
+                    top: 145px;
+                    left: 195px;
                   "
                 ></a>
-                
+
                 <a
                   onclick="showMap('سخا',8)"
                   class="alink"
-                  style="top: -15px; left: 123px;"
+                  style="top: -15px; left: 123px"
                   title="سخا"
                 ></a>
                 <a
                   onclick="showMap('سخا',8)"
-                  style=" 
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 60px;
-                  height: 25px;
-                  top: 15px;
-                  left: 79px;"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 60px;
+                    height: 25px;
+                    top: 15px;
+                    left: 79px;
+                  "
                 ></a>
-               
 
                 <a
                   onclick="showMap('وادي النطرون',35)"
                   class="alink"
-                  style="
-                  top: 170px;
-                  left: -15px;
-                  "
+                  style="top: 170px; left: -15px"
                   title="وادي النطرون"
                 ></a>
                 <a
@@ -725,9 +646,8 @@
                     height: 25px;
                     top: 258px;
                     left: -10px;
-                    "
+                  "
                 ></a>
-                
 
                 <a
                   onclick="showMap('مسطرد',55)"
@@ -738,57 +658,54 @@
                 <a
                   onclick="showMap('مسطرد',55)"
                   class=""
-                  style=" 
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  top: 303px;
-                  right: 480px;
-                  width: 70px;
-                  height: 25px;"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    top: 303px;
+                    right: 480px;
+                    width: 70px;
+                    height: 25px;
+                  "
                 ></a>
-                
 
                 <a
                   onclick="showMap('المطرية',43)"
                   class="alink"
-                  style="top: 285px;right: 355px; width: 70px; height: 70px"
+                  style="top: 285px; right: 355px; width: 70px; height: 70px"
                   title="المطرية"
                 ></a>
                 <a
                   onclick="showMap('المطرية',43)"
-
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 100px;
-                  height: 25px;
-                  top: 315px;
-                  right: 265px;
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 100px;
+                    height: 25px;
+                    top: 315px;
+                    right: 265px;
                   "
                 ></a>
-               
 
                 <a
                   onclick="showMap('ابي سرجة',43)"
                   class="alink"
-                  style="top: 335px;right: 295px; width: 70px; height: 70px"
+                  style="top: 335px; right: 295px; width: 70px; height: 70px"
                   title="ابي سرجة"
                 ></a>
                 <a
                   onclick="showMap('ابي سرجة',43)"
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 130px;
-                  height: 25px;
-                  top: 365px;
-                  right: 180px;
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 130px;
+                    height: 25px;
+                    top: 365px;
+                    right: 180px;
                   "
                 ></a>
-                
 
                 <a
                   onclick="showMap('كنيسة العذراء بالمعادي',45)"
@@ -796,15 +713,13 @@
                   style="top: 385px; right: 315px; width: 90px; height: 90px"
                   title="كنيسة العذراء بالمعادي"
                 ></a>
-                
 
                 <a
                   onclick="showMap('منف',46)"
                   class="alink"
-                  style="top: 425px;left: 195px; width: 90px; height: 90px"
+                  style="top: 425px; left: 195px; width: 90px; height: 90px"
                   title="manf "
                 ></a>
-                
 
                 <a
                   onclick="showMap('دير الجرنوس',48)"
@@ -815,16 +730,15 @@
                 <a
                   onclick="showMap('دير الجرنوس',48)"
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 130px;
-                  height: 25px;
-                  top: 520px;
-                  left: -25px;"
-
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 130px;
+                    height: 25px;
+                    top: 520px;
+                    left: -25px;
+                  "
                 ></a>
-               
 
                 <a
                   onclick="showMap('دير جبل الطير',49)"
@@ -832,7 +746,7 @@
                   style="top: 555px; left: 255px; width: 110px; height: 90px"
                   title="دير جبل الطير"
                 ></a>
-               
+
                 <a
                   onclick="showMap('الأشمونين',50)"
                   class="alink"
@@ -842,16 +756,15 @@
                 <a
                   onclick="showMap('الأشمونين',50)"
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 125px;
-                  height: 25px;
-                  top: 620px;
-                  left: -20px;"
-
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 125px;
+                    height: 25px;
+                    top: 620px;
+                    left: -20px;
+                  "
                 ></a>
-               
 
                 <a
                   onclick="showMap('ديروط الشريف',51)"
@@ -861,17 +774,16 @@
                 ></a>
                 <a
                   onclick="showMap('ديروط الشريف',51)"
-
                   style="
-                  position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 140px;
-                  height: 25px;
-                  bottom: 155px;
-                  left: 155px; "
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 140px;
+                    height: 25px;
+                    bottom: 155px;
+                    left: 155px;
+                  "
                 ></a>
-
 
                 <a
                   onclick="showMap('مير القوصية',52)"
@@ -881,15 +793,16 @@
                 ></a>
                 <a
                   onclick="showMap('مير القوصية',52)"
-                  style="position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 125px;
-                  height: 25px;
-                  bottom: 90px;
-                  left: -5px;"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 125px;
+                    height: 25px;
+                    bottom: 90px;
+                    left: -5px;
+                  "
                 ></a>
-      
 
                 <a
                   onclick="showMap('دير المحرق',7)"
@@ -899,15 +812,16 @@
                 ></a>
                 <a
                   onclick="showMap('دير المحرق',7)"
-                  style="position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 90px;
-                  height: 25px;
-                  bottom: -30px;
-                  left: 0px;"
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 90px;
+                    height: 25px;
+                    bottom: -30px;
+                    left: 0px;
+                  "
                 ></a>
-                
 
                 <a
                   onclick="showMap('دير درنكة',12)"
@@ -917,16 +831,16 @@
                 ></a>
                 <a
                   onclick="showMap('دير درنكة',12)"
-                  style="position: absolute;
-                  display: block;
-                  cursor: pointer;
-                  width: 70px;
-                  height: 25px;
-                  bottom: 5px;
-                  left: 195px;
+                  style="
+                    position: absolute;
+                    display: block;
+                    cursor: pointer;
+                    width: 70px;
+                    height: 25px;
+                    bottom: 5px;
+                    left: 195px;
                   "
                 ></a>
-               
               </div>
             </div>
           </div>
