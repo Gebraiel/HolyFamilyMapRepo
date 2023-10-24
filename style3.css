@@ -9,6 +9,22 @@ body {
 ::before {
   box-sizing: border-box;
 }
+ul.languages{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 175px;
+  z-index: 1;
+}
+.languages li a{
+  color:white !important;
+}
 @media (max-width: 769px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     padding-bottom: 25px;

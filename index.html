@@ -68,6 +68,22 @@
       }
     </style>
     <style>
+      ul.languages{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 15px;
+        top: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 175px;
+        z-index: 1;
+      }
+      .languages li a{
+        color:white !important;
+      }
       .city a {
         color: #fff !important;
       }
@@ -75,8 +91,19 @@
   </head>
   <body>
     <section id="second-screen" style="height: 819px; padding-top: 50px">
+      
       <div>
         <div>
+          <ul class="languages">
+            <li><a href="index.html">ar</a></li>
+            <li><a href="index-en.html">en</a></li>
+            <li><a href="index-es.html">es</a></li>
+            <li><a href="index-fr.html">fr</a></li>
+            <li><a href="index-it.html">it</a></li>
+            <li><a href="index-pt.html">pt</a></li>
+            <li><a href="index-ru.html">ru</a></li>
+            <li><a href="index-de.html">de</a></li>
+          </ul>
           <div class="time-line">
             <div class="time">
               <h3>نقاط المسار</h3>
@@ -715,7 +742,7 @@
                 <a
                   onclick="showMap('منف',46)"
                   class="alink"
-                  style="top: 410px;left: 195px; width: 90px; height: 90px"
+                  style="top: 425px;left: 195px; width: 90px; height: 90px"
                   title="manf "
                 ></a>
                 
